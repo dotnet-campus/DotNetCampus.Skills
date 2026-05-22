@@ -4,6 +4,7 @@ description: >
   审查仓库（或指定范围）中 AI 生成代码常见的各类问题，将发现记录到 Markdown 报告中，并协助人类安全地修复。
   仅在用户主动调用 /ai-code-cleaner 时运行，不会自动触发。
 autoInvoke: false
+disable-model-invocation: true
 ---
 
 # AI Code Cleaner

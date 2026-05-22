@@ -2,6 +2,8 @@
 name: architecture-plan-review
 description: 架构遵循性代码计划审查（破坏性重组——仅限人类通过 /architecture-plan-review 手动调用）。本技能会按架构模块边界彻底重组计划文档结构，涉及大量改写，因此禁止 AI 自动触发。AI 编写完计划后不要自行调用此技能，等待人类决定是否需要审查。
 argument-hint: '[要审查的计划文档路径]'
+autoInvoke: false
+disable-model-invocation: true
 ---
 
 # 架构遵循性代码计划审查
